@@ -1,5 +1,36 @@
 .navbar {
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: aqua;
+}
+
+.img_logo img {
+  width: 80px;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  margin-left: 4em;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  margin-right: 2em;
+}
+
+.item a {
+  color: brown;
+  text-decoration: none;
+}
+
+.item a:hover {
+  color: blue;
+}
+
+.btn {
+  margin-right: 4em;
 }

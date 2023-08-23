@@ -1,5 +1,5 @@
 //REACT
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 //COMPONENTS
 import Home from "./components/pages/Home";
@@ -9,6 +9,7 @@ import Contact from "./components/pages/Contact";
 
 //LAYOUT
 import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
 
 //CSS
 import "./App.css";
@@ -24,7 +25,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
-        <p>Footer</p>
+        <Footer />
       </BrowserRouter>
     </div>
   );
